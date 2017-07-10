@@ -1952,3 +1952,21 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     display: none;
   }
 }
+
+#toolbarSidebar, #viewFind, #openFile, #print, #download, #viewBookmark {
+  display: none !important;
+}
+
+#pageNumber {
+  pointer-events: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+}
+
+#cursorSelectTool, #cursorHandTool, #documentProperties {
+  display: none !important;
+}
+
+#secondaryToolbar .horizontalToolbarSeparator:last-of-type {
+  display: none !important;
+}
