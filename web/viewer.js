@@ -186,6 +186,11 @@ function webViewerLoad() {
     window.PDFViewerApplication = pdfjsWebApp.PDFViewerApplication;
     pdfjsWebApp.PDFViewerApplication.run(config);
   }
+
+  document.getElementById('closeButton').addEventListener("click", function(e) {
+    window.close();
+  });
+
 }
 
 if (document.readyState === 'interactive' ||

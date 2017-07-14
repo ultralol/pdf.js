@@ -1953,7 +1953,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   }
 }
 
-#toolbarSidebar, #viewFind, #openFile, #print, #download, #viewBookmark {
+#toolbarSidebar, #viewFind, #openFile, #print, #download, #viewBookmark, #presentationMode {
   display: none !important;
 }
 
@@ -1969,4 +1969,9 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 
 #secondaryToolbar .horizontalToolbarSeparator:last-of-type {
   display: none !important;
+}
+
+#closeButton:before {
+  content: url(images/close.png);
+  position: static;
 }
